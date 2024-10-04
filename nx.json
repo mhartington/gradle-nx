@@ -2,7 +2,9 @@
   "targetDefaults": {
     "build": {
       "cache": true,
-      "dependsOn": ["^build"]
+      "dependsOn": [
+        "^build"
+      ]
     },
     "lint": {
       "cache": true
@@ -32,6 +34,6 @@
       }
     }
   ],
-  "nxCloudAccessToken": "Yzk2YWZmNWUtYjNlOC00ZTJiLWFkNzctOTRlNzRlMzVlZDcwfHJlYWQtd3JpdGU=",
+  "nxCloudAccessToken": "YjQ4MzQ3MDctNDhmZC00MTBkLTk3YjctMmQzZjg4NTA2Y2Q0fHJlYWQtd3JpdGU=",
   "nxCloudUrl": "https://cloud.nx.app/"
 }
