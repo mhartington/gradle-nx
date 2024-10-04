@@ -64,7 +64,7 @@ public class LinkedList {
         }
 
         if (it == null) {
-            throw new IndexOutOfBoundsException("Index is out of range");
+            throw new IndexOutOfBoundsException("Index is out of        range");
         }
 
         return it.data;
