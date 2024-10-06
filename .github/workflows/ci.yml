@@ -20,7 +20,7 @@ jobs:
 
       # Connect your workspace on staging.nx.app and uncomment this to enable task distribution.
       # The "--stop-agents-after" is optional, but allows idle agents to shut down once the "build" targets have been requested
-      - run: npx nx-cloud start-ci-run --stop-agents-after="build"
+      # - run: npx nx-cloud start-ci-run --distribute-on="5 linux-medium-jvm" --stop-agents-after="build"
 
       - uses: nrwl/nx-set-shas@v4
 
